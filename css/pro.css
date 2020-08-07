@@ -1,0 +1,90 @@
+#pro{
+    border-bottom: 0.02rem solid rgba(30, 80, 174, 1);
+}
+#pro a{
+    color: rgba(30, 80, 174, 1);
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: url(../imgs-p/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+/* 图书馆 */
+.library{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.nowpo{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.14rem;
+    border-bottom: 0.01rem solid rgb(102, 102, 102,.2);
+    line-height: 0.8rem;
+    color: rgb(102, 102, 102);
+    cursor: default;
+}
+.library-title{
+    width: 6rem;
+    height: 0.48rem;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+}
+.library-title1{
+    width: 2.16rem;
+    height: 0.48rem;
+    font-size: 0.36rem;
+    font-weight: 400;
+    float: left;
+}
+.library-title2{
+    width: 2.67rem;
+    height: 0.48rem;
+    font-size: 0.36rem;
+    color: rgb(229, 229, 229);
+    float: left;
+}
+.library-content{
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+    color: rgb(102, 102, 102);
+    margin-top: 0.40rem;
+    margin-left: 0.20rem;
+}
+.library-img1{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+.library-img1 img{
+    float: left;
+    width: 2.2rem;
+    height: auto;
+    margin: 0 0.075rem;
+}
+.library-img2{
+    width: 100%;
+    height: 4.46rem;
+    margin-top: 0.4rem;
+}
+.library-img2 img{
+    width: 4.2rem;
+    height: auto;
+    float: left;
+    margin-left: 0.3rem;
+}
+.library-img2 div{
+    width: 2.3rem;
+    height: 4.46rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+.library-img2 div img{
+    width: 2rem;
+}
+.library-img2 div img:first-child{
+    margin-bottom: 0.2rem;
+}

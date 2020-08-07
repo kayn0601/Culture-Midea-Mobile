@@ -1,0 +1,144 @@
+#new{
+    border-bottom: 0.02rem solid rgba(30, 80, 174, 1);
+}
+#new a{
+    color: rgba(30, 80, 174, 1);
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: url(../imgs-n/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+/* 公司动态 */
+.com{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.nowpo{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.14rem;
+    border-bottom: 0.01rem solid rgb(102, 102, 102,.2);
+    line-height: 0.8rem;
+    color: rgb(102, 102, 102);
+    cursor: default;
+}
+.comTop{
+    width: 95%;
+    height: 3.6rem;
+}
+.comTop img{
+    width: 40%;
+    height: auto;
+    margin-top: 0.45rem;
+    float: left;
+}
+.comTop-content{
+    float: left;
+    width: 3.85rem;
+    height: auto;
+}
+.Topcontent{
+    width: 3rem;
+    height: 1.08rem;
+    margin: 0.15rem auto;
+}
+.Topcontent:nth-child(1),.Topcontent:nth-child(2){
+    border-bottom: 1px solid rgb(102, 102, 102,.2);
+    padding-bottom: 0.1rem;
+}
+.topwrap{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: rgba(204, 204, 204, 0.2);
+    margin-top: 0.2rem;
+    position: relative;
+    float: left;
+}
+.topwrap div:first-child{
+    font-size: 5px;
+    font-weight: bold;
+    color: #626971;
+    width: 0.55rem;
+    height: 0.36rem;
+    text-align: center;
+    margin:  auto;
+    padding-top: 0.1rem;
+}
+.topwrap div:last-child{
+    font-size: 5px;
+    margin: 0;
+    color: #626971;
+    text-align: center;
+}
+.topword{
+    float: left;
+    width: 2.3rem;
+    height: auto;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+.topword-title{
+    font-size: 0.16rem;
+    color: #333;
+    cursor: pointer;
+}
+.topword-title:hover{
+    color: rgba(30, 80, 174, 1);
+}
+.comBot{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.comBot-content{
+    width: 95%;
+    height: 1.36rem;
+    margin: 0.1rem auto;
+}
+.comBot-content img{
+    width: 20%;
+    height: auto;
+    margin-top: 0.1rem;
+    float: left;
+}
+.comBot-word{
+    width: 4rem;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.comBot-word-title{
+    cursor: pointer;
+}
+.comBot-word-title:hover{
+    color: rgba(30, 80, 174, 1) !important;
+}
+.comBot-word div:first-child{
+    font-size: 0.16rem;
+    color: rgba(102, 102, 102, 1);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+}
+.comBot-word div:last-child{
+    font-size: 0.14rem;
+    color: rgba(153, 153, 153, 1);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+}
+.comBot-date{
+    width: 0.98rem;
+    height: 0.22rem;
+    font-size: 0.14rem;
+    color: rgba(153, 153, 153, 1);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    float: right;
+}
