@@ -44,7 +44,7 @@ a{
     padding: 0;
     top: auto;
     float: right;
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: 0.1rem;
 }
 .head-nav li{
@@ -55,7 +55,7 @@ a{
     font-size: 0.14rem;
     font-weight: normal;
     text-align: center;
-    margin-right: 0.25rem;
+    margin-right: 0.05rem;
 }
 .head-nav li a{
     width: 0.8rem;

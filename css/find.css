@@ -1,0 +1,235 @@
+#find{
+    border-bottom: 0.02rem solid rgba(30, 80, 174, 1);
+}
+#find a{
+    color: rgba(30, 80, 174, 1);
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: url(../imgs-f/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+/* 岗位 */
+.job{
+    width: 95%;
+    height: auto;
+    margin: 0 auto 0.5rem;
+}
+.nowpo{
+    width: 95%;
+    height: 0.5rem;
+    font-size: 0.08rem;
+    border-bottom: 1px solid rgb(102, 102, 102,.2);
+    line-height: 0.5rem;
+    color: rgb(102, 102, 102);
+    cursor: default;
+}
+.shop{
+    width: 95%;
+    height: 0.32rem;
+    padding: 0 0.3rem;
+    background: rgba(247, 248, 250, 1);
+    margin-top: 0.26rem;
+    cursor: pointer;
+    border-top: 0.02rem solid rgba(30, 80, 174, 1);
+}
+.shop-title{
+    float: left;
+    line-height: 0.32rem;
+    font-size: 0.1rem;
+    font-weight: normal;
+}
+.shop-button{
+    float: right;
+    line-height: 0.32rem;
+    font-size: 0.14rem;
+    font-weight: bolder;
+    color: #888;
+}
+.shopContent{
+    width: 95%;
+    height: 3.2rem;
+    background: rgba(247, 248, 250, 1);
+    padding: 0 0.2rem;
+    display: block;
+}
+.shopContent-item{
+    width: 3.1rem;
+    height: 3.3rem;
+    background: #fff;
+    border: 1px solid  rgba(102, 102, 102,.2);
+    float: left;
+    margin: 0 0.1rem;
+    overflow: hidden;
+}
+.shopContent-item-titlebox{
+    width: 95%;
+    height: 0.2rem;
+    padding: 0 0.14rem;
+    margin-top: 0.2rem;
+}
+.line{
+    width: 0.03rem !important;
+    height: 0.15rem !important;
+    background: rgba(30, 80, 174, 1);
+    float: left;
+}
+.shopContent-item-title{
+    float: left;
+    width: 1rem;
+    height: 0.1rem;
+    margin-left: 0.05rem;
+    font-size: 0.1rem !important;
+    color: rgb(102, 102, 102);
+}
+.shopContent-item-date{
+    float: right;
+    font-size: 0.1rem;
+    color: rgb(153, 153, 153);
+}
+.shopContent-content{
+    width: 95%;
+    margin-left: 0.13rem;
+    font-size: 0.1rem;
+    color: rgb(102, 102, 102,.8);
+}
+
+.purch{
+    width: 95%;
+    height: 0.32rem;
+    padding: 0 0.3rem;
+    background: rgba(247, 248, 250, 1);
+    margin-top: 0.26rem;
+    cursor: pointer;
+}
+.purch-title{
+    float: left;
+    line-height: 0.32rem;
+    font-size: 0.1rem;
+    font-weight: normal;
+}
+.purch-button{
+    float: right;
+    line-height: 0.32rem;
+    font-size: 0.14rem;
+    font-weight: bolder;
+    color: #888;
+}
+.purchContent{
+    width: 95%;
+    height: 3.2rem;
+    background: rgba(247, 248, 250, 1);
+    padding: 0 0.2rem;
+    display: none;
+}
+.purchContent-item{
+    width: 3.1rem;
+    height: 3.3rem;
+    background: #fff;
+    border: 1px solid  rgba(102, 102, 102,.2);
+    float: left;
+    margin: 0 0.1rem;
+    overflow: hidden;
+}
+.purchContent-item-titlebox{
+    width: 95%;
+    height: 0.2rem;
+    padding: 0 0.14rem;
+    margin-top: 0.2rem;
+}
+.line{
+    width: 0.03rem !important;
+    height: 0.15rem !important;
+    background: rgba(30, 80, 174, 1);
+    float: left;
+}
+.purchContent-item-title{
+    float: left;
+    width: 1rem;
+    height: 0.1rem;
+    margin-left: 0.05rem;
+    font-size: 0.1rem !important;
+    color: rgb(102, 102, 102);
+}
+.purchContent-item-date{
+    float: right;
+    font-size: 0.1rem;
+    color: rgb(153, 153, 153);
+}
+.purchContent-content{
+    width: 95%;
+    margin-left: 0.13rem;
+    font-size: 0.1rem;
+    color: rgb(102, 102, 102,.8);
+}
+.cusc{
+    width: 95%;
+    height: 0.32rem;
+    padding: 0 0.3rem;
+    background: rgba(247, 248, 250, 1);
+    margin-top: 0.26rem;
+    cursor: pointer;
+}
+.cusc-title{
+    float: left;
+    line-height: 0.32rem;
+    font-size: 0.1rem;
+    font-weight: normal;
+}
+.cusc-button{
+    float: right;
+    line-height: 0.32rem;
+    font-size: 0.14rem;
+    font-weight: bolder;
+    color: #888;
+}
+.cuscContent{
+    width: 95%;
+    height: 3.2rem;
+    background: rgba(247, 248, 250, 1);
+    padding: 0 0.2rem;
+    display: none;
+}
+.cuscContent-item{
+    width: 3.1rem;
+    height: 3.3rem;
+    background: #fff;
+    border: 1px solid  rgba(102, 102, 102,.2);
+    float: left;
+    margin: 0 0.1rem;
+    overflow: hidden;
+}
+.cuscContent-item-titlebox{
+    width: 95%;
+    height: 0.2rem;
+    padding: 0 0.14rem;
+    margin-top: 0.2rem;
+}
+.line{
+    width: 0.03rem !important;
+    height: 0.15rem !important;
+    background: rgba(30, 80, 174, 1);
+    float: left;
+}
+.cuscContent-item-title{
+    float: left;
+    width: 1rem;
+    height: 0.1rem;
+    margin-left: 0.05rem;
+    font-size: 0.1rem !important;
+    color: rgb(102, 102, 102);
+}
+.cuscContent-item-date{
+    float: right;
+    font-size: 0.1rem;
+    color: rgb(153, 153, 153);
+}
+.cuscContent-content{
+    width: 95%;
+    margin-left: 0.13rem;
+    font-size: 0.1rem;
+    color: rgb(102, 102, 102,.8);
+}
