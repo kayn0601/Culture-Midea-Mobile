@@ -15,7 +15,7 @@
 /* 岗位 */
 .job{
     width: 95%;
-    height: auto;
+    height: 5.5rem;
     margin: 0 auto 0.5rem;
 }
 .nowpo{
@@ -63,7 +63,7 @@
     border: 1px solid  rgba(102, 102, 102,.2);
     float: left;
     margin: 0 0.1rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 .shopContent-item-titlebox{
     width: 95%;
@@ -132,7 +132,7 @@
     border: 1px solid  rgba(102, 102, 102,.2);
     float: left;
     margin: 0 0.1rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 .purchContent-item-titlebox{
     width: 95%;
@@ -200,7 +200,7 @@
     border: 1px solid  rgba(102, 102, 102,.2);
     float: left;
     margin: 0 0.1rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 .cuscContent-item-titlebox{
     width: 95%;
