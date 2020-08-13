@@ -20,7 +20,7 @@ a{
     width: auto;
     height: auto;
     color: rgb(30, 80, 174);
-    font-size: 0.34rem;
+    font-size: 0.6rem;
     font-weight: bolder;
     position: relative;
     left: 0;
@@ -31,41 +31,53 @@ a{
     width: auto;
     height: auto;
     color: rgb(204, 204, 204);
-    font-size: 0.34rem;
+    font-size: 0.6rem;
     font-weight: bolder;
     position: relative;
     left: 0;
     top: 0.4rem;
     float: left;
 }
+.dh{
+    width: 0.7rem;
+    height: 0.7rem;
+    float: right;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+}
 .head-nav{
-    width: 4.5rem;
+    position: absolute;
+    width: 3rem;
+    height: 5.5rem;
+    background: rgb(19,34,122);
     margin: 0;
     padding: 0;
-    top: auto;
-    float: right;
-    margin-left: 1rem;
-    margin-top: 0.1rem;
+    right: 0;
+    top: 1.2rem;
+    z-index: 100;
+    display: none;
+    opacity: 0;
 }
 .head-nav li{
-    width: 0.8rem;
-    height: 0.44rem;
+    width: 100%;
+    height: 20%;
     display: block;
-    float: left;
     font-size: 0.14rem;
     font-weight: normal;
     text-align: center;
-    margin-right: 0.05rem;
+    line-height: 1.1rem;
 }
 .head-nav li a{
-    width: 0.8rem;
-    height: 0.44rem;
+    width: 100%;
+    height: auto;
+    color: #fff;
     display: block;
     float: left;
-    font-size: 0.14rem;
+    font-size: 0.5rem;
     font-weight: normal;
     text-align: center;
     margin-right: 0.15rem;
+    text-align: center;
 }
 .head-nav li a:hover{
     color: rgba(30, 80, 174, 1);

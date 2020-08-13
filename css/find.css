@@ -1,8 +1,5 @@
-#find{
-    border-bottom: 0.02rem solid rgba(30, 80, 174, 1);
-}
 #find a{
-    color: rgba(30, 80, 174, 1);
+    color: yellow;
 }
 /* banner */
 .banner{

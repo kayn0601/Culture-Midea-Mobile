@@ -1,4 +1,23 @@
 $(function(){
+    //导航
+    var dhflag="false"
+    $(".dh").tap(function(){
+        if(dhflag=="false"){
+            $(".head-nav").css("display","block")
+            $(".head-nav").animate({
+                opacity:1
+            },300)
+            dhflag="true"
+        }else{
+            $(".head-nav").animate({
+                opacity:0
+            },300,function(){
+                $(".head-nav").css("display","none")
+            })
+            dhflag="false"
+        }
+    })
+
     // 合作伙伴传送带
     function tp(){
         $(".tp-box").animate({

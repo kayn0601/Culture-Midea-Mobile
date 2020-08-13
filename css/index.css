@@ -1,8 +1,5 @@
-#head-navhead{
-    border-bottom: 0.02rem solid rgba(30, 80, 174, 1);
-}
 #head-navhead a{
-    color: rgba(30, 80, 174, 1);
+    color: yellow;
 }
 /* banner轮播图 */
 .banner-back{
